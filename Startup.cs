@@ -28,11 +28,14 @@ namespace Nonogram
 
             app.UseRouting();
 
+            //används för att säga att vi vill använda html kod i VS
+            app.UseStaticFiles();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Nej main hej!");
                 });
             });
         }
