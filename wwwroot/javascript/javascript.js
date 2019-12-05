@@ -1,3 +1,3 @@
-﻿function sayHi() {
-    console.log("Nej men hejsan!")
+﻿function buttonBlack(_this) {
+    _this.style.backgroundColor = "black";
 }
