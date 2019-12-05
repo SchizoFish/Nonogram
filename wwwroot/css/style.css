@@ -1,7 +1,21 @@
-﻿body{
-    background-color: darkcyan
+﻿body {
+    background-color: darkcyan;
+    
 }
 
 h1{
-    color: white
+    color: white;
+    text-align:center;
+   
+}
+.buttons {
+    letter-spacing:-5px;
+    
+    
+    
+}
+button {
+    
+    border: 1px solid;
+    border-color: gray
 }
