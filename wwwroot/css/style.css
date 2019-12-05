@@ -1,21 +1,19 @@
 ﻿body {
     background-color: darkcyan;
-    
 }
 
-h1{
+h1 {
     color: white;
-    text-align:center;
-   
+    text-align: center;
 }
+
 .buttons {
-    letter-spacing:-5px;
-    
-    
-    
+    letter-spacing: -5px
 }
-button {
-    
+
+.button {
     border: 1px solid;
-    border-color: gray
+    border-color: gray;
+    height: 50px;
+    width: 50px;
 }
