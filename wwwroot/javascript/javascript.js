@@ -16,8 +16,8 @@ let guessArray = [
 
 function buttonBlack(_this, x, y) {
 
-    if (_this.style.backgroundColor != "black") {
-        _this.style.backgroundColor = "black";
+    if (_this.style.backgroundColor != "thistle") {
+        _this.style.backgroundColor = "thistle";
         guessArray[y][x] = 1
     }
     else {
@@ -26,7 +26,7 @@ function buttonBlack(_this, x, y) {
     }
 
     var grattis = document.getElementById('congrats');
-    grattis.innerHTML = "DÖDSSVÅRT"
+    grattis.innerHTML = "LÄTT"
 
 }
 

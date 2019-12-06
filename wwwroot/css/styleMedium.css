@@ -1,11 +1,11 @@
 ﻿body {
-    background-color: black;
+    background-color: tan;
 }
 
 h1 {
     color: white;
     text-align: center;
-    background-image: url('../html/glimmer.gif');
+    background-image: url('../html/desert.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,8 +18,8 @@ h1 {
 .button {
     border: 1px solid;
     border-color: gray;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background-color: white;
 }
 
@@ -27,21 +27,21 @@ h1 {
     vertical-align: middle;
     background-color: transparent;
     text-align: right;
-    width: 48px;
-    border: 1px solid white;
+    width: 38px;
+    border: 1px solid black;
     border-top: 3px;
     font-size: 20px;
-    height: 46px;
+    height: 36px;
 }
 
 .inputTopp {
     vertical-align: middle;
     background-color: transparent;
     text-align: right;
-    width: 48px;
-    border: 1px solid white;
+    width: 38px;
+    border: 1px solid black;
     font-size: 20px;
-    height: 46px;
+    height: 35px;
 }
 
 .input2 {
@@ -50,11 +50,6 @@ h1 {
     width: 50px;
     font-size: 20px;
     border: none;
-    
-}
-
-input{
-    color:white;
 }
 
 p {
@@ -64,16 +59,16 @@ p {
 }
 
 #parent {
-    width: 250px;
+    margin-left: 90px;
+    width: 500px;
     overflow: hidden;
 }
 
 .number {
     float: left;
-    width: 48px;
-    border: 1px solid white;
+    width: 38px;
+    border: 1px solid black;
     font-size: 20px;
-    color: white;
 }
 
 .number-left {
