@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <None Include="wwwroot\css\style.css" />
-    <None Include="wwwroot\html\main.html" />
+    <None Include="wwwroot\html\easy.html" />
     <None Include="wwwroot\javascript\javascript.js" />
   </ItemGroup>
 
